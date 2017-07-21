@@ -1,0 +1,60 @@
+<head>
+<title>WEBQ</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+	    h1{
+	    	font-family: old english text mt;
+	    	font-size: 50px;
+	    }
+	    input{
+	    	width: 200px;
+    	height: 30px;
+    	border-radius: 4px;
+    	border-color: lightblue;
+    	box-sizing: border-box;
+	    }
+		body{
+			background: url("img/homebg.jpg");
+			background-size: cover;
+		}
+	
+		.font{
+			font-family: monotype corsiva;
+			font-size: 30px;
+		}
+		input[type=submit]{
+			font-family: monotype corsiva;
+			font-size: 20px;
+			width: 120px;
+		}
+		footer{
+			margin-top: 300px;
+		}
+	</style>
+	<script type="text/javascript" src="java/home.js">
+	</script>
+</head>
+<body>
+    <center>
+    <br/>
+    <br/>
+    <br/>
+	<h1>
+		Web Quest
+	</h1>
+	<br/>
+    <br/>
+	<div>
+	<form onsubmit="return validation()" name="wq" action="intro.htm">
+	    <label class="font">Username</label>
+		<input type="text" name="username"><br/>
+		<br/>
+		<label class="font">Password</label>
+		<input type="password" name="password"><br/>
+		<br/>
+		<input type="submit" name="submit" value="Login">
+	</form>
+	</div>
+	</center>
+</body>
+<footer><center style="color: white">Made with &nbsp;<span class="glyphicon glyphicon-heart" style="color:red"></span> &nbsp; by Prathmesh Chaudhari, Aakanksha Chandurkar and Saurav Adhe</center></footer>
